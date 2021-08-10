@@ -5,4 +5,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: 'my-step'
+      run: |
+        pip install poetry
+        make install
+    - name: 'test lint'
       run: lint
