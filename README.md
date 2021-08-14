@@ -4,3 +4,4 @@
 [![Actions Status](https://github.com/GHMan2021/python-project-lvl1/workflows/lint-check/badge.svg)](https://github.com/GHMan2021/python-project-lvl1/actions)
 
 [![asciicast](https://asciinema.org/a/ZvtgynOiD8TpEoFKdbYjzxMgA.svg)](https://asciinema.org/a/ZvtgynOiD8TpEoFKdbYjzxMgA)
+[![asciicast](https://asciinema.org/a/ey83dCkVf3peUth0ZSIrYOM97.svg)](https://asciinema.org/a/ey83dCkVf3peUth0ZSIrYOM97)
