@@ -1,7 +1,8 @@
 from random import randint
+from ..check_answer import f_check_answer
 
 
-def is_even(name):
+def is_even():
     print('Answer "yes" if the number is even, otherwise answer "no".')
     counter = 1
     result = True
@@ -12,15 +13,8 @@ def is_even(name):
         right_answer = 'yes' if number % 2 == 0 else 'no'
         user_answer = input('Your answer: ')
 
-        if right_answer == user_answer:
-            print('Correct!')
+        if f_check_answer(right_answer, user_answer):
             counter += 1
         else:
-            r_a = right_answer
-            u_a = user_answer
-            print(f"'{u_a}' is wrong answer ;(. Correct answer was '{r_a}'.")
-            print(f"Let's try again, {name}!")
-            result = False
-
-    if result is True:
-        print(f'Congratulations, {name}!')
+            return False
+    return True
