@@ -18,7 +18,7 @@ def is_even(name):
         else:
             r_a = right_answer
             u_a = user_answer
-            print(f"'{u_a}' is wrong answer ;(. Correct answer was '{r_a}.'")
+            print(f"'{u_a}' is wrong answer ;(. Correct answer was '{r_a}'.")
             print(f"Let's try again, {name}!")
             result = False
 
