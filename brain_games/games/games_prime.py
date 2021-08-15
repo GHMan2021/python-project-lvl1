@@ -25,4 +25,4 @@ def f_is_prime(number):
     d = 3
     while d * d <= number and number % d != 0:
         d += 2
-        return d * d > number
+    return d * d > number
