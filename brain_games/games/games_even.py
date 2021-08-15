@@ -7,7 +7,7 @@ def is_even():
     counter = 1
     result = True
     while result is True and counter <= 3:
-        number = randint(0, 100)
+        number = randint(0, 1000)
         print(f'Question: {number}')
 
         right_answer = 'yes' if number % 2 == 0 else 'no'
