@@ -8,7 +8,7 @@ def is_gcd():
     while counter <= 3:
         number1 = randint(0, 25)
         number2 = randint(0, 25)
-        print('Question: ', number1, number2)
+        print('Question:', number1, number2)
         user_answer = str(input('Your answer: '))
         right_answer = str(gcd(number1, number2))
 

@@ -21,7 +21,7 @@ def is_progression():
                 start_number += num_progress
                 result += str(start_number) + ' '
                 counter_1 += 1
-        print('Question: ', result)
+        print('Question:', result)
         user_answer = str(input('Your answer: '))
         if f_check_answer(right_answer, user_answer):
             counter += 1

@@ -9,7 +9,7 @@ def result_expression():
         number1 = randint(0, 25)
         number2 = randint(0, 25)
         operation_signs = choice('+-*')
-        print('Question: ', number1, operation_signs, number2)
+        print('Question:', number1, operation_signs, number2)
         if operation_signs == '+':
             right_answer = str(number1 + number2)
         elif operation_signs == '-':
