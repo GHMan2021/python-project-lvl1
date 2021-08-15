@@ -11,7 +11,7 @@ def is_even():
         print('Question:', number)
 
         right_answer = 'yes' if number % 2 == 0 else 'no'
-        user_answer = input('Your answer: ')
+        user_answer = input('Your answer:')
 
         if f_check_answer(right_answer, user_answer):
             counter += 1
