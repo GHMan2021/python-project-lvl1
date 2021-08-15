@@ -7,7 +7,7 @@ def is_prime():
     counter = 1
     result = True
     while result is True and counter <= 3:
-        number = randint(0, 100)
+        number = randint(0, 500)
         print('Question:', number)
         right_answer = 'yes' if f_is_prime(number) else 'no'
         user_answer = input('Your answer: ')
